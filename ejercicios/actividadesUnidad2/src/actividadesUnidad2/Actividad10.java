@@ -1,6 +1,7 @@
 package actividadesUnidad2;
 import java.util.Scanner;
 public class Actividad10 {
+	//Num capicua entre 0 y 9999
 	public static void main(String[] args) {
 		
 Scanner sc = new Scanner(System.in);
@@ -66,7 +67,7 @@ System.out.println("Dime un número entrev el 0 y el 9999");
 		}
 	}
 			else
-				System.out.println(negacion);
+				System.out.println("número incorrecto");
 			}
 		}
 
