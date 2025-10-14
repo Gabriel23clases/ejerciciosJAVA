@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Actividad12 {
 
 	public static void main(String[] args) {
-		// Pedir 5 calificaciones de alumnos y decir al final si hay algún suspenso.
+		// Pedir 5 calificaciones de alumnos y decir al final si hay algún suspenso. if (haysuspenso) ----> boolean haysuspenso
 		Scanner sc = new Scanner(System.in);
 		int nota=0, res=0;
 	for (int num=1; num<6;num++) {
