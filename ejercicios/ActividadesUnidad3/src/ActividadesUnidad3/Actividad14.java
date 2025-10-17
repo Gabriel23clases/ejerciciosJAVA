@@ -10,12 +10,23 @@ public class Actividad14 {
 		 							* *
 		 							*         */
 		Scanner sc = new Scanner(System.in);
-		int num;
+		//creamos dos variables contadores n y s
+		int num, n, s;
 		System.out.println("Dime un número, crearemos un triaungulo usando es enúmero de base");
 		num = sc.nextInt();
-		for (int n=0; n<num; n++) {
+		
+		while (num>0) {
 			
+			System.out.print("*");
+			s=num-1;
+			while (s>0) {
+				System.out.print("*");
+				s--;
+			}
+			num--;
+			System.out.println("");
 		}
+		
 		}
 
 }
