@@ -4,7 +4,7 @@ public class Actividad7 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
- System.out.println(primo (11));
+ System.out.println(primo (5));
 	}
 
 	public static boolean primo (int n) {
