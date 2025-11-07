@@ -7,6 +7,7 @@ public class Actividad5 {
 		/* Desarrollar el juego de la cámara secreta. El jugador elige la longitud de la combinación (dígitos del 1 al 5). 
 		La aplicación genera aleatoriamente la combinación y, en cada intento del usuario, muestra para cada dígito si es mayor,
 		menor o igual que el correspondiente de la combinación secreta.*/
+<<<<<<< HEAD
 		Scanner scanner = new Scanner(System.in);
 
         // Paso 1: El jugador elige la longitud de la combinación
@@ -62,5 +63,39 @@ public class Actividad5 {
 
         scanner.close();
     }
+=======
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Elige la longitud de la combinación");
+		
+		int indice = sc.nextInt();
+		int [] combinacion = new int [indice];
+		Random random = new Random ();
+		int numerorandom = random.nextInt(1,5);
+		
+		for (int i=0; i< combinacion.length; i++) {
+			numerorandom = random.nextInt(1,5);
+			combinacion[i] = numerorandom;
+	}
+		
+		for (int elemento : combinacion) {
+			System.out.println(elemento);
+		}
+		
+	for (int i =0; i<=combinacion.length-1; i++) {
+		
+		int num1=0;
+		while (num1 != combinacion[i] )
+		System.out.println("Dime la combinación");
+	      num1 = sc.nextInt();
+	if (num1 >combinacion[i]) {
+		System.out.println("Demasiado grande");
+	}else
+			if (num1 <combinacion[i]) {
+				System.out.println("Demasiado pequeño");
+			}
+		}
+
+}
+>>>>>>> 2717a711d7d95a58b2d12258981536470b0039e5
 }
 	
