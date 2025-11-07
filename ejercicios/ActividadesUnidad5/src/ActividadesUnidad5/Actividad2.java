@@ -22,6 +22,6 @@ public class Actividad2 {
 		for (int num : numeros) {
 			System.out.println(num);
 		}
-
+// for (int i = tabla.length-1; i>=0; i--){syso numeros [i]
 }
 }
